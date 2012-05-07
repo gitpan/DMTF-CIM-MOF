@@ -13,7 +13,7 @@ our @ISA = qw(Exporter);
 
 our @EXPORT_OK = qw (parse_MOF);
 
-our $VERSION = qv('0.03');
+our $VERSION = qv('0.04');
 
 # Module implementation here
 sub valid_MOF_integer
@@ -1484,7 +1484,7 @@ DMTF::CIM::MOF - Compiles a MOF file
 
 =head1 VERSION
 
-This document describes DMTF::CIM::MOF version 0.03
+This document describes DMTF::CIM::MOF version 0.04
 
 
 =head1 SYNOPSIS

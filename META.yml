@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               DMTF-CIM-MOF
-version:            v0.03
+version:            v0.04
 abstract:           Compiles a MOF file
 author:
     - Stephen James Hurd <shurd@broadcom.com>
