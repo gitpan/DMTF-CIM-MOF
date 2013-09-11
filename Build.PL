@@ -12,6 +12,7 @@ my $builder = Module::Build->new(
         'version'    => 0,
         'DMTF::CIM'  => 0,
         'Storable'   => 0,
+        'Exporter'   => '5.57',
     },
     add_to_cleanup      => [ 'DMTF-CIM-MOF-*' ],
 );

@@ -1,4 +1,4 @@
-DMTF-CIM-MOF version 0.04
+DMTF-CIM-MOF version 0.05
 
 This module parses MOF files as defined by the DMTF's DSP0004 into a complex
 perl datastructure.  This module is mostly intended for use via DMTF::CIM

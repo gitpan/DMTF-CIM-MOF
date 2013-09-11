@@ -2,18 +2,13 @@ package DMTF::CIM::MOF;
 
 use warnings;
 use strict;
-use version;
 use Storable;
 use DMTF::CIM;
 use Carp;
+use version;
+our $VERSION = qv('0.05');
+use Exporter qw ( import );
 
-require Exporter;
-
-our @ISA = qw(Exporter);
-
-our @EXPORT_OK = qw (parse_MOF);
-
-our $VERSION = qv('0.04');
 
 # Module implementation here
 sub valid_MOF_integer
@@ -1484,7 +1479,7 @@ DMTF::CIM::MOF - Compiles a MOF file
 
 =head1 VERSION
 
-This document describes DMTF::CIM::MOF version 0.04
+This document describes DMTF::CIM::MOF version 0.05
 
 
 =head1 SYNOPSIS

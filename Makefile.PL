@@ -13,6 +13,7 @@ WriteMakefile(
         'version'    => 0,
         'DMTF::CIM'  => 0,
         'Storable'   => 0,
+        'Exporter'   => '5.57',
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'DMTF-CIM-MOF-*' },
